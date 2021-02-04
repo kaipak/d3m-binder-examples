@@ -1,0 +1,10 @@
+name: d3m-base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - dill
+  - pandas
+  - d3m-interface
