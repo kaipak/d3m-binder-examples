@@ -3,8 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
+  - pip
   - numpy
   - matplotlib
   - dill
   - pandas
-  - d3m-interface
+  - pip:
+    - d3m-interface
